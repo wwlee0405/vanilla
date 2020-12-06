@@ -11,9 +11,9 @@ function saveName(text) {
 
 function handleSubmit(event) {
   event.preventDefault();
-  const currenValue = input.value;
-  paintGretting(currenValue);
-  saveName(currenValue);
+  const currentValue = input.value;
+  paintGretting(currentValue);
+  saveName(currentValue);
 }
 
 function askForName() {
